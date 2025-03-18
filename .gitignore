@@ -1,19 +1,8 @@
-# Node.js dependencies
+# Ignorer les dépendances
 node_modules/
-npm-debug.log
-yarn-error.log
+dist/
+build/
 
-# IDE & OS Files
-.DS_Store
-Thumbs.db
-.vscode/
-
-# Environment variables
+# Ignorer les fichiers sensibles
 .env
-.env.local
-.env.development.local
-.env.production.local
-
-# Logs
-logs/
-*.log
+.DS_Store
